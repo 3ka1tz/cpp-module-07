@@ -3,7 +3,7 @@
 
 #include <cstddef>
 
-template<typename T, typename F>
+template <typename T, typename F>
 void iter(T* arr, const size_t arr_len, F func)
 {
     for (size_t i = 0; i < arr_len; ++i)
