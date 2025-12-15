@@ -17,7 +17,7 @@ void toUpper(std::string& s) {
         s[i] = std::toupper(s[i]);
 }
 
-void printString(const std::string& s){
+void printString(const std::string& s) {
     std::cout << s << std::endl;
 }
 
